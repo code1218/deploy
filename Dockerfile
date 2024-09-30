@@ -4,4 +4,4 @@ ARG PROFILES
 ARG ENV
 COPY ${JAR_FILE} app.jar
 
-ENTRYPOINT ["java", "-Dspring.profiles.active=${PROFILES}", "-jar", "app.jar"]
+ENTRYPOINT ["java", "-Dspring.profiles.active=aaaaa", "-jar", "app.jar"]
